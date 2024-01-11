@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #0c1729;
+}
+
+.card {
+  background-color: #15273f;
+  border: solid 25px #15273f;
+  border-radius: 10px;
+}
+
+.card img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.description {
+  margin: 15px 0;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: #8ca9d6;
+}
+
+h2 {
+  margin-bottom: 14px;
+  color: white;
+}
+
+.info {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.info .ethereum {
+  height: 23px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.amount {
+  color: hsl(178, 100%, 50%);
+  /* font-size: 20px; */
+}
+
+.duration-clock {
+  display: inline-block;
+  margin-left: 60px;
+  /* font-size: 18px; */
+}
+
+.info .clock {
+  display: inline-block;
+  margin-left: 40px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.info .duration {
+  display: inline-block;
+  margin-left: 2px;
+  color: #8ca9d6;
+}
+
+hr {
+  opacity: 30%;
+}
+
+.creator {
+  display: inline-block;
+}
+
+.creator .name {
+  margin-top: 25px;
+  display: inline-block;
+  color: #8ca9d6;
+}
+
+.creator span {
+  color: white;
+}
+
+.creator .avatar {
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 15px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+/* .attribution {
+  display: inline-block;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
