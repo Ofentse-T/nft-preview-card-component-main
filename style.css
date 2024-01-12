@@ -23,6 +23,10 @@ body {
 .card img {
   height: 300px;
   border-radius: 10px;
+  background-image: url(image-equilibrium.jpg);
+  background-size: cover;
+  background-position: center;
+  /* transition: background-image 0.3s ease; */
 }
 
 .description {
@@ -32,6 +36,7 @@ body {
 .paragraph {
   font-size: 18px;
   color: #8ca9d6;
+  font-weight: 300;
 }
 
 h2 {
@@ -45,26 +50,27 @@ h2 {
 }
 
 .info .ethereum {
-  height: 23px;
+  height: 18px;
   vertical-align: middle;
   margin-right: 5px;
 }
 
 .amount {
   color: hsl(178, 100%, 50%);
-  /* font-size: 20px; */
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .duration-clock {
   display: inline-block;
   margin-left: 60px;
-  /* font-size: 18px; */
+  font-size: 13px;
 }
 
 .info .clock {
   display: inline-block;
   margin-left: 40px;
-  height: 25px;
+  height: 18px;
   vertical-align: middle;
 }
 
@@ -98,6 +104,21 @@ hr {
   margin-right: 15px;
   border: 1px solid white;
   border-radius: 50px;
+}
+
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card img:hover {
+  background-image: url(icon-view.svg);
+  cursor: pointer;
 }
 
 /* .attribution {
